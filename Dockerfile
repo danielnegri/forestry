@@ -32,7 +32,7 @@ RUN set -x \
     && make release-binary \
     && mkdir -p /usr/share/forestry \
     && cp -r ./release/bin /usr/share/forestry/. \
-    && cp -r ./results /usr/share/forestry/. \
+    # && cp -r ./results /usr/share/forestry/. \s
     && echo "Build complete."
 
 

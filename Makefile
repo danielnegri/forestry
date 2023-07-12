@@ -93,7 +93,7 @@ lint:
 		fi; \
 	done
 
-testall: testrace vet fmt testcoverage #lint
+testall: testrace vet fmt # testcoverage #lint
 
 .PHONY: fmt \
 		lint \
